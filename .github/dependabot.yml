@@ -4,4 +4,7 @@ updates:
    directory: "/"
    schedule:
      interval: daily
+     time: "22:00"
+     # Specify JST (Japan Standard Time) as time zone
+     timezone: "Asia/Tokyo"
    open-pull-requests-limit: 10
